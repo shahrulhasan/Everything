@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everything – My Story</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+    :root {
+      --background-start: #1e1e2f;
+      --background-mid: #4b2c82;
+      --background-end: #d16ba5;
+      --accent-color: #f67280;
+      --text-color: #ffffff;
+      --card-bg: rgba(255, 255, 255, 0.08);
+      --card-hover: rgba(255, 255, 255, 0.15);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, var(--background-start), var(--background-mid), var(--background-end));
+      min-height: 100vh;
+      font-family: 'Nunito', sans-serif;
+      color: var(--text-color);
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+    }
+
+    .glass-box {
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 25px;
+      padding: 3rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    h1, h2 {
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 1.5rem;
+      color: var(--accent-color);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+    }
+
+    .divider {
+      text-align: center;
+      margin: 3rem 0;
+      font-size: 1.5rem;
+      color: var(--accent-color);
+    }
+
+    .media-container {
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    .media-container img, 
+    .media-container video {
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .media-caption {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      color: var(--accent-color);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    @media screen and (max-width: 768px) {
+      .glass-box {
+        padding: 1.5rem;
+      }
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- INTRO PAGE -->
+    <div class="glass-box">
+      <h1>Everything.</h1>
+      <p>Some random bs here about random shit, very random, smh smh whatever the fuck that quick brown fox jummped
+        over a lazy dog idk anything about that ok</p>
+    </div>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <!-- MAIN STORY -->
+    <div class="glass-box">
+      <h2>Some sort of tittle idk</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in neque et risus vehicula porttitor. 
+      Suspendisse potenti. Aenean nec nunc at magna luctus maximus.</p>
+
+      <p>Aliquam erat volutpat. Praesent euismod eros vitae turpis commodo, sed fermentum eros mattis. 
+      Nam ultricies sem sed lorem volutpat, a egestas ex laoreet.</p>
+
+      <div class="media-container">
+        <img src="files/img/1.jpg">
+        <div class="media-caption">something something text idk</div>
+      </div>
+      <p>Donec viverra, orci ac tincidunt luctus, nulla nisl fringilla nunc, eget facilisis eros nisi vel erat. 
+      This part of the story holds meaning far beyond words.</p>
+    </div>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <!-- END / CLOSURE -->
+    <div class="glass-box">
+      <h2>Something something another tittle</h2>
+      <p>FUCK YOU MAYANK FUCK YOU MOTHERFUCKER FUCK YOU MAYANK FUCKER FUCKER FUCKING FUCKHEAD FUCKER DIE KYS I DONT GIVE A SHIT FUCK OFF22</p>
+
+      <div class="media-container">
+        <video controls>
+          <source src="files/vid/1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="media-caption">I love thicc femboys</div>
+      </div>
+    </div>
+
+    <footer>And that's me and my story. Last edited: idk whatever date</footer>
+  </div>
+</body>
+</html>
